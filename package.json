@@ -10,5 +10,9 @@
     "14Avril1997@14##"
   ],
   "author": "Jean-Pierre14",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
 }
