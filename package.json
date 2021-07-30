@@ -1,0 +1,14 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "simple project to learn jwt and mongodb using nodejs express framework",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server"
+  },
+  "keywords": [
+    "14Avril1997@14##"
+  ],
+  "author": "Jean-Pierre14",
+  "license": "MIT"
+}
