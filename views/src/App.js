@@ -4,16 +4,20 @@ class App extends React.Component {
   constructor() {
     super()
     this.state = {
-      name: 'Grace',
-      age: 24
+      isStatus: true
     }
   }
   render() {
+    let text
+    if (this.state.isStatus === true) {
+      text = 'In'
+    } else {
+      text = 'Out'
+    }
     return (
       <div>
-        <h4>Class Component</h4>
-        <h4>{this.state.name}</h4>
-        <h1>{this.state.age} years old</h1>
+        <h2>You currently Log {text}</h2>
+
       </div>
     )
   }
