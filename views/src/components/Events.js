@@ -18,7 +18,7 @@ class Events extends React.Component {
     MoinsCount() {
         this.setState(prevState => {
             return {
-                num: prevState.num - 2
+                num: prevState.num - 1
             }
         })
     }
