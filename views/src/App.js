@@ -1,6 +1,7 @@
 import React from 'react'
 import Events from './components/Events'
 import Props from './components/Props'
+import './index.css'
 
 class App extends React.Component {
 
