@@ -19,3 +19,21 @@
   background: #ccc;
   box-shadow: 2px 2px 2px #000;
 }
+button{
+  padding: 10px
+}
+.container{
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+.form{
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  color: #fff;
+  background: #000;
+  padding: 10px;
+  border-radius: .4rem;
+}
