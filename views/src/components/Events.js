@@ -26,8 +26,8 @@ class Events extends React.Component {
         return (
             <div>
                 <p>{this.state.num}</p>
-                <button onClick={this.AddCount} className="button">+</button>
-                <button onClick={this.MoinsCount} className="button">-</button>
+                <button onClick={this.AddCount} className="button red">+</button>
+                <button onClick={this.MoinsCount} className="button success">-</button>
             </div>
         )
     }

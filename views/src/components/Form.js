@@ -6,7 +6,7 @@ class Form extends React.Component {
             <div className="container">
                 <div className="form">
                     <h1>Register Event</h1>
-                    <form method="post">
+                    <form method="post" autoComplete="off">
                         <div className="group">
                             <label for="username">Username</label>
                             <input type="text" name="username" id="username" placeholder="USername" class="input" />
@@ -24,7 +24,7 @@ class Form extends React.Component {
                             <input type="password" name="password" id="password" placeholder="Password" class="input" />
                         </div>
                         <div>
-                            <button type="submit">Regiter</button>
+                            <button type="submit" className="button success">Regiter</button>
                         </div>
                     </form>
                 </div>

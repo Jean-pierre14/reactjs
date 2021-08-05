@@ -20,7 +20,27 @@
   box-shadow: 2px 2px 2px #000;
 }
 button{
-  padding: 10px
+  display: inline-block;
+  border: none !important;
+  outline: none !important;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+.button{
+  background: none;
+  border-radius: .4rem;
+  transition: 0.3s;
+}
+.button:hover{
+  opacity: 0.6;
+}
+.success{
+  background: rgb(42, 161, 78);
+  color: #fff;
+}
+.red{
+  background: rgb(247, 48, 48);
+  color: #fff;
 }
 .container{
   position: relative;
@@ -34,6 +54,27 @@ button{
   margin: 0 auto;
   color: #fff;
   background: #000;
+  padding: 10px;
+  border-radius: .4rem;
+}
+.group{
+  margin: 10px 0;
+}
+.form label, .input{
+  position: relative;
+  display: block;
+}
+.form label{
+  font-size: 20px;
+  font-family: calibri !important;
+  margin: 8px 0;
+}
+.input{
+background: none !important;
+  outline: none !important;
+  border: 2px solid #fff;
+  color: #fff;
+  width: 100%;
   padding: 10px;
   border-radius: .4rem;
 }
