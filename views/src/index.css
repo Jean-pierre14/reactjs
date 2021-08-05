@@ -13,3 +13,9 @@
 
   font-family: calibri !important;
 }
+.box-header{
+  width: 100%;
+  padding: 10px;
+  background: #ccc;
+  box-shadow: 2px 2px 2px #000;
+}
