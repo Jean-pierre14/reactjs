@@ -1,9 +1,21 @@
 import React, { Component } from "react"
 class ChallengeTwo extends Component {
+    constructor() {
+        super()
+        this.state = {
+            isStatus: ''
+        }
+    }
     render() {
+        let sta = ''
+        if (this.state.isStatus) {
+            sta = 'check'
+        } else {
+            sta = 'not-checked'
+        }
         return (
             <div>
-                <h3>This user check/not-checked</h3>
+                <h3>This user {sta}</h3>
             </div>
         )
     }
